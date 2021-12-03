@@ -1,0 +1,200 @@
+:root {
+    --bg-main-color: #000;
+    --font-main-color: #ffffff;
+    --menu-font: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: var(--bg-main-color);
+    color:var(--font-main-color);
+    font-family: var(--menu-font);
+}
+
+.svg-color {
+    filter: invert(100%);
+}
+
+
+.wrapper {
+    
+    width: 800px;
+    margin: auto;
+    background-color: violet;
+    
+}
+
+/* HEADER */
+
+header {
+    padding-top: .375rem;
+    padding-bottom: .500rem;
+    height: 6rem;
+    background-color: #000
+}
+
+.logo-img {
+    float: left;
+    width:90px;
+}
+
+.menu {
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    top:1rem;
+    left: 9.5rem;
+    display: flex;
+    padding: 0;
+}
+
+.menu-option {
+    list-style: none;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+.menu-option:hover {
+    border-bottom: 3px solid var(--font-main-color);
+}
+
+/* FIN HEADER */
+
+/* HOME CONTAINER */
+
+main {
+    clear: both;
+}
+
+.hero {
+    background-image: url("img/252422638_408463754082308_2956983702443135199_n.jpg");
+    background-color: #fff;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-layer {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.5;
+    ;
+}
+
+.hero-title>h1 {
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+}
+
+.hero-subtitle>h2 {
+    margin: 0;
+    position:absolute;
+    font-weight: 300;
+    left: 4%;
+    top: 48%;
+}
+
+.arrow-left, .arrow-right {
+    width: 1rem;
+    position: absolute;
+}
+
+.arrow-left {
+    top:45%;
+}
+
+.arrow-right {
+    top:45%;
+    right: 0%;
+}
+
+.visit {
+    height: fit-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #000;
+}
+
+
+.visit-title {
+    text-align: center;
+}
+
+.visit-title>h2 {
+    margin: 0;
+}
+
+.visit-options {
+    padding-top: 1.5rem;
+    width: 45rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.visit-options-img {
+    height: 6rem;   
+    width: 6rem; 
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 1rem 3rem;
+    cursor: pointer;
+    border: 2px solid #fff;
+}
+
+.img-1 {
+    background-image: url("img/paris.jpg");
+}
+.img-2 {
+    background-image: url("img/España.jpg");
+}
+.img-3 {
+    background-image: url("img/Estatua-de-la-Libertad.jpg");
+}
+.img-4 {
+    background-image: url("img/grecia-gr-1.jpg");
+}
+.img-5 {
+    background-image: url("img/pisa.jpg");
+}
+
+.visit-menu-btn {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 10rem;
+    background-color: #008CBA;
+    text-align: center;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.visit-menu-btn:hover {
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 10rem;
+    background-color: #00a7df;
+    text-align: center;
+    margin: 3rem auto;
+    padding: 1rem 0;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 177, 177);
+}
+
+/* FIN HOME CONTAINER */
+
+/* MENU CONTAINER */
