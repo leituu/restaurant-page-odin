@@ -17,15 +17,16 @@ body {
 
 
 .wrapper {
-    
+    position: relative;
+    min-height: 100vh;
     width: 800px;
     margin: auto;
-    background-color: violet;
+    background-color: #000;
     
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 /* HEADER */
@@ -36,6 +37,7 @@ header {
     height: 6rem;
     background-color: #000
 }
+
 
 .logo-img {
     float: left;
@@ -69,6 +71,7 @@ header {
 
 main {
     clear: both;
+    padding-bottom: 8.5rem;
 }
 
 
@@ -288,4 +291,61 @@ main {
 
 /* FOOTER CONTAINER */
 
+footer {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: inherit;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 8.5rem;
+    justify-content: space-between;
+    display: flex;
+    background-color: #000;
+    margin: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding-left: 2rem;
+}
+
+.info-linea {
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    padding: .375rem 0 .375rem 0;
+}
+
+
+.info-icono {
+    width: 1rem;
+}
+
+.info-texto {
+    font-size: .8rem;
+    padding-left: 1rem;
+    height: 1rem;
+    padding-bottom: .125rem;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.375rem;
+}
+
+
+.redes-icono {
+    width: 2rem;
+    padding: 0 .5rem 0 .5rem;
+    cursor: pointer;
+}
+
+.footer-icon {
+    height: 2rem;
+}
 /* FIN FOOTER CONTAINER */
