@@ -321,8 +321,8 @@ i.exp-img {
 /* CONCTACTO CONTAINER */
 
 .contacto-container {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
     background-color: #000;
     display: flex;
     flex-wrap: wrap;
