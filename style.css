@@ -207,6 +207,115 @@ main {
 
 /* MENU CONTAINER */
 
+.menu-container {
+    padding-bottom: 10rem;
+}
+
+.menu-container>h2 {
+    text-align: center;
+}
+
+.exp {
+    width: 35rem;
+    margin: auto;
+    margin-top: 2rem;
+    position:relative;
+}
+
+
+i.country_flags{
+	background-size:60px;
+	width:60px;
+	height:60px;
+	display:inline-block;
+}
+
+.country_flags[country='US']{
+	background-image:url('img/US.png');
+	background-repeat: no-repeat;
+}
+.country_flags[country='GR']{
+	background-image:url('img/GR.png');
+	background-repeat: no-repeat;
+}
+.country_flags[country='ES']{
+	background-image:url('img/ES.png');
+	background-repeat: no-repeat;
+}
+.country_flags[country='FR']{
+	background-image:url('img/FR.png');
+	background-repeat: no-repeat;
+}
+.country_flags[country='IT']{
+	background-image:url('img/IT.png');
+	background-repeat: no-repeat;
+}
+
+i.exp-img {
+	background-size:60px;
+	width:60px;
+	height:60px;
+    border-radius: 100%;
+	display:inline-block;
+}
+
+.exp-img[experiencia='desayuno']{
+    background-image: url('img/desayuno.jpg');
+}
+
+.exp-img[experiencia='almuerzo']{
+    background-image: url('img/almuerzo.jpg');
+}
+
+.exp-img[experiencia='exprimido']{
+    background-image: url('img/exprimidos.jpg');
+}
+
+.exp-titulo {
+    padding-left: .5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.exp-titulo>h3 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.exp-item {
+    box-sizing: border-box;
+    position:relative;
+    height: 1rem;
+    margin: .5rem .5rem
+}
+
+.exp-item-titulo {
+    
+    width: 30rem;
+    position:absolute;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.exp-item-titulo::after {
+    content: " ........................................................................................................................... ";
+}
+
+.exp-item-precio {
+    width: fit-content;
+    position: absolute;
+    right: 0;
+    overflow: hidden;
+}
+
+
+
+
+
 /* FIN MENU CONTAINER */
 
 /* CONCTACTO CONTAINER */
