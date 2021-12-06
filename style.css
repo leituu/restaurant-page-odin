@@ -29,6 +29,10 @@ body {
     display: none !important;
 }
 
+.active {
+    border-bottom: 3px solid var(--font-main-color);
+}
+
 /* HEADER */
 
 header {
@@ -64,6 +68,7 @@ header {
 .menu-option:hover {
     border-bottom: 3px solid var(--font-main-color);
 }
+
 
 /* FIN HEADER */
 
