@@ -228,30 +228,30 @@ main {
 }
 
 
-i.country_flags{
+i.exp-img{
 	background-size:60px;
 	width:60px;
 	height:60px;
 	display:inline-block;
 }
 
-.country_flags[country='US']{
+.exp-img[experiencia='eeuu']{
 	background-image:url('img/US.png');
 	background-repeat: no-repeat;
 }
-.country_flags[country='GR']{
+.exp-img[experiencia='grecia']{
 	background-image:url('img/GR.png');
 	background-repeat: no-repeat;
 }
-.country_flags[country='ES']{
+.exp-img[experiencia='españa']{
 	background-image:url('img/ES.png');
 	background-repeat: no-repeat;
 }
-.country_flags[country='FR']{
+.exp-img[experiencia='francia']{
 	background-image:url('img/FR.png');
 	background-repeat: no-repeat;
 }
-.country_flags[country='IT']{
+.exp-img[experiencia='italia']{
 	background-image:url('img/IT.png');
 	background-repeat: no-repeat;
 }
@@ -307,7 +307,7 @@ i.exp-img {
 }
 
 .exp-item-titulo::after {
-    content: " ........................................................................................................................... ";
+    content: " ............................................................................................................................... ";
 }
 
 .exp-item-precio {
