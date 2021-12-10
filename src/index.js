@@ -1,5 +1,6 @@
-// import {generateFormCont} from "./contact";
-// generateFormCont();
+import generateHomeCont from './home'
+import generateMenuCont from './menu'
+import generateFormCont from './contact'
 
 const menuBtn = document.querySelectorAll('.menu-option')
 generateHomeCont()
@@ -49,7 +50,7 @@ menuBtn.forEach((btn) => {
                 if (document.querySelector('.content').hasChildNodes()) {
                     document.querySelector('.content').removeChild(document.querySelector('.content').firstChild)
                 }
-                generateMenuCont(menu);
+                generateMenuCont();
                 activeContent(btn)
                 desactiveContent(menuBtn[0])
                 desactiveContent(menuBtn[2])
@@ -74,11 +75,8 @@ menuAccess.addEventListener('click', () => {
     document.querySelector('.content').removeChild(document.querySelector('.content').firstChild)
     activeContent(menuBtn[1])
     generateMenuCont(menu);
-    // activeContent(btn)
+
     desactiveContent(menuBtn[0])
     desactiveContent(menuBtn[2])
-    // showContent(menuCont);
-    // hideContent(homeCont)
-    // hideContent(contactoCont)
 })
 

@@ -63,6 +63,8 @@ const homeCont = a.forEach((aElem)=> {
                     content = aElem['elem']
 })
 
-const generateHomeCont = () => {
+export const generateHomeCont = () => {
     document.querySelector('.content').appendChild(content)
 }
+
+export default generateHomeCont;

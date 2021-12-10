@@ -49,7 +49,7 @@ const generateMap = () => {
 
 
 
-const generateFormCont = () => {
+export const generateFormCont = () => {
     const contCont= document.createElement('div');
     contCont.classList.add('contacto-container');
     contCont.appendChild(generateForm())
@@ -57,4 +57,6 @@ const generateFormCont = () => {
     document.querySelector('.content').appendChild(contCont)
 }
 
+
+export default generateFormCont;
 

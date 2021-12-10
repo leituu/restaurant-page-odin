@@ -117,3 +117,5 @@ const generateMenu = (menu) => {
 const generateMenuCont = () => {
     document.querySelector('.content').appendChild(generateMenu(menu))
 }
+
+export default generateMenuCont;
