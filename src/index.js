@@ -74,7 +74,7 @@ menuBtn.forEach((btn) => {
 menuAccess.addEventListener('click', () => {
     document.querySelector('.content').removeChild(document.querySelector('.content').firstChild)
     activeContent(menuBtn[1])
-    generateMenuCont(menu);
+    generateMenuCont();
 
     desactiveContent(menuBtn[0])
     desactiveContent(menuBtn[2])
