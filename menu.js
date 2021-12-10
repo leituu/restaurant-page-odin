@@ -93,7 +93,6 @@ const generateMenu = (menu) => {
     menuCompleto.classList.add('menu-container');
     menuExp.forEach(exp => {
         let menuObj = menu[exp]
-        console.log(menu[exp]);
         let experiencia = document.createElement('div');
         let experienciaTitulo = document.createElement('div');
         let expImg = document.createElement('i');
@@ -115,4 +114,6 @@ const generateMenu = (menu) => {
     return menuCompleto;
 }
 
-document.querySelector('.content').appendChild(generateMenu(menu));
+const generateMenuCont = () => {
+    document.querySelector('.content').appendChild(generateMenu(menu))
+}

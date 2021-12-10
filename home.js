@@ -62,3 +62,7 @@ const homeCont = a.forEach((aElem)=> {
                     })
                     content = aElem['elem']
 })
+
+const generateHomeCont = () => {
+    document.querySelector('.content').appendChild(content)
+}
